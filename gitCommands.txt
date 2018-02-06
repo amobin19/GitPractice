@@ -11,3 +11,13 @@ git push -u origin master
  
 git remote add origin ,url of repo>
 git push -u origin master
+
+// Delete a branch
+git branch -d <branch to delete>
+
+// Switch branch
+git checkout <branch to switch into>
+
+// Clone branch
+// switch into directory
+git clone <url of repo>
