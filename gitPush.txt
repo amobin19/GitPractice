@@ -1,0 +1,13 @@
+// Create a new repository on the command line
+ 
+touch README.md // create file
+git init // create a repo
+git add <file>
+git commit -m "comment"
+git remote add origin <url of repo>
+git push -u origin master
+ 
+// Push an existing repository from the command line
+ 
+git remote add origin ,url of repo>
+git push -u origin master
