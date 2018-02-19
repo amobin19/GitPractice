@@ -1,0 +1,1 @@
+git commit - m "your normal message #ID-Num State" // YouTrack command
