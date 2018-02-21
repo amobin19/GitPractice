@@ -19,7 +19,7 @@ git branch -d <branch to delete>
 git checkout <branch to switch into>
 
 // Create new branch
-git checkout -b [name_of_your_new_branch]
+git branch [name_of_your_new_branch]
 
 // Push branch on github
 git push origin [name_of_your_new_branch]
