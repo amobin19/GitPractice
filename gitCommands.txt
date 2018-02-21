@@ -18,6 +18,15 @@ git branch -d <branch to delete>
 // Switch branch
 git checkout <branch to switch into>
 
+// Create new branch
+git checkout -b [name_of_your_new_branch]
+
+// Push branch on github
+git push origin [name_of_your_new_branch]
+
+// Know which branch you are in
+git branch
+
 // Clone branch
 // switch into directory
 git clone <url of repo>
