@@ -1,15 +1,14 @@
 // Create a new repository on the command line
- 
-touch README.md // create file
+touch <file> // create file
 git init // create a repo
-git add <file>
+git add <file> 
+// OR "git add ." to add all files
 git commit -m "comment"
-git remote add origin <url of repo>
+git remote add origin <url of repo> // if not already in repo directory
 git push -u origin master
  
 // Push an existing repository from the command line
- 
-git remote add origin ,url of repo>
+git remote add origin <url of repo>
 git push -u origin master
 
 // Delete a branch
@@ -31,4 +30,15 @@ git branch
 // switch into directory
 git clone <url of repo>
 
-git commit - m "your normal message #ID-Num State" // YouTrack command
+// Know which files are being changed
+git status
+
+// Update local files
+// make sure you're on master branch
+git pull
+
+// YouTrack test command
+git commit - m "your normal message #ID-Num State"
+
+// Check prior commmits
+git log
