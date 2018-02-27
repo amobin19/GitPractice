@@ -1,3 +1,3 @@
 # GitPractice
-Test and practice for git: 
-Created by Ayman Mobin
+Test and practice for git - 
+by Ayman Mobin
