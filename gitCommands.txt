@@ -42,3 +42,9 @@ git commit - m "your normal message #ID-Num State"
 
 // Check prior commmits
 git log
+
+// Docker Build
+docker-compose up
+
+// Docker Re-build
+docker-compose build --no-cache
