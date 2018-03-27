@@ -48,3 +48,6 @@ docker-compose up
 
 // Docker Re-build
 docker-compose build --no-cache
+
+// Stash info in current index to clear dock
+git stash
