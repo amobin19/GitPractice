@@ -51,3 +51,18 @@ docker-compose build --no-cache
 
 // Stash info in current index to clear dock
 git stash
+
+// Run C Code
+gcc -o hello hello.c
+./hello
+
+// Run C++ Code
+clang++ hello.cpp
+./a.out
+
+// Run Java Code
+javac hello.java // make sure class name and filename match
+java hello
+
+// Run Python Code
+pythonX.X hello.python //X.X version of python; default 2.7
