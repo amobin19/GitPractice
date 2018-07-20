@@ -70,5 +70,3 @@ pythonX.X hello.python //X.X version of python; default 2.7
 // Python IdleX
 cd <idlex-X.X> // X.X version
 pythonX.X idlex.py // X.X version
-
-// test commit
