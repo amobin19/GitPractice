@@ -78,9 +78,12 @@ pythonX.X idlex.py // X.X version
 // Path -> Edit
 
 // EMACs
-C-x C-f: Open a file, or create a new file if the file name is not found
-C-x C-c: Exit Emacs (prompts to save the file if it is not saved)
-C-g: Quit (stops the current command, doesn't exit Emacs)
-C-_: Undo
-M-x linum-mode: Turn on line numbers
-M-x font-lock-mode: Turn on font coloring
+C-x C-f // Open a file, or create a new file if the file name is not found
+C-x C-c // Exit Emacs (prompts to save the file if it is not saved)
+C-g // Quit (stops the current command, doesn't exit Emacs)
+C-_ // Undo
+M-x linum-mode // Turn on line numbers
+M-x font-lock-mode // Turn on font coloring
+
+// Exit QEMU
+C-a x
