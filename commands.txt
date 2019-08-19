@@ -43,6 +43,11 @@ git commit - m "your normal message #ID-Num State"
 // Check prior commmits
 git log
 
+Undo local changes
+Discard all local changes, but save them for possible re-use later: git stash.
+Discarding local changes (permanently) to a file: git checkout -- <file>
+Discard all local changes to all files permanently: git reset --hard.
+
 // Docker Build
 docker-compose up
 
