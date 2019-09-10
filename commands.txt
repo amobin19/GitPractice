@@ -92,3 +92,6 @@ M-x font-lock-mode // Turn on font coloring
 
 // Exit QEMU
 C-a x
+
+// grep to recursively find a word in a directory tree with line numbers
+grep -nr 'word to search' *
