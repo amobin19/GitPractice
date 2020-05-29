@@ -93,5 +93,11 @@ M-x font-lock-mode // Turn on font coloring
 // Exit QEMU
 C-a x
 
+// grep - to search for content within files
 // grep to recursively find a word in a directory tree with line numbers
-grep -nr 'word to search' *
+// grep -nr <word you're looking for> <location>
+grep -nr 'author: ' * // example
+
+// find - to search for files
+find ./AWSfolder -name pic.jpg // find a file in a folder
+find . -name *.txt // find a .txt file in all folders
