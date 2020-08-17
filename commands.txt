@@ -101,3 +101,6 @@ grep -nr 'author: ' * // example
 // find - to search for files
 find ./AWSfolder -name pic.jpg // find a file in a folder
 find . -name *.txt // find a .txt file in all folders
+
+// Git reset branch to master
+git reset --hard origin/master
