@@ -43,6 +43,9 @@ git commit - m "your normal message #ID-Num State"
 // Check prior commmits
 git log
 
+// See all branches
+git branch -a
+
 Undo local changes
 Discard all local changes, but save them for possible re-use later: git stash.
 Discarding local changes (permanently) to a file: git checkout -- <file>
