@@ -6,7 +6,18 @@ git add <file>
 git commit -m "comment"
 git remote add origin <url of repo> // if not already in repo directory
 git push -u origin master
- 
+
+// Check status of changes
+git status
+
+// Changes on new branch and push new branch to remote
+git add <file> // or "git add ." to add all files
+git commit -m "comment on changes"
+git push -u origin <name of branch>
+// after pull request is made
+git checkout master
+git pull
+
 // Push an existing repository from the command line
 git remote add origin <url of repo>
 git push -u origin master
