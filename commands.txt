@@ -118,3 +118,6 @@ find . -name *.txt // find a .txt file in all folders
 
 // Git reset branch to master
 git reset --hard origin/master
+
+// xcode update
+xcode-select --install
