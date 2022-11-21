@@ -121,3 +121,10 @@ git reset --hard origin/master
 
 // xcode update
 xcode-select --install
+
+// update PAT
+git config --global credential.helper // check if credential.helper is set
+// update or set
+git config --global --unset credential.helper
+git config --global credential.helper osxkeychain
+// then clone or pull and then use your PAT as password
